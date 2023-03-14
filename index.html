@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hustle</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <script defer src="./script/index.js"></script>
+</head>
+<body>
+    <h1>side hustle</h1>
+    <section class="section">
+        <form class="form-input" id="form">
+            <fieldset class="set">
+                <div class="input-validate">
+                    <label for="name" class="name">name:</label>
+                    <input type="text" placeholder="enter name"class="input" id="name-input" onkeyup="nameValidity()">
+                    <span id="name"></span><br>
+                    <label for="email" class="email">email:</label>
+                    <input type="text" placeholder="enter email" class="input" id="email-input" onkeyup="emailValidate()">
+                    <span id="email"></span><br>
+                    <label for="phone" class="phone">phone number:</label>
+                    <input type="text" placeholder="+23470896775" class="input" id="phone-input" onkeyup="phoneValidate()">
+                    <span id="phone"></span><br>
+                    <label for="gender" class="gender">gender:</label>
+                    <label for="male" class="male">male</label>
+                    <input type="checkbox" value="male">
+                    <label for="female" class="female">female</label>
+                    <input type="checkbox" value="female"><br>
+                    <label for="password" class="password">password:</label>
+                    <input type="password" placeholder="password" class="input" id="password-input" onkeyup="passwordValidate()">
+                    <span id="password"></span><br>
+                    
+                </div>
+                <button type="submit" class="btn-btn" id="button">submit</button>
+            </fieldset>
+        </form>
+    </section>
+    
+</body>
+</html>

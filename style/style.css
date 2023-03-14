@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: Arial, helvetica, sans-serif;
+    /* background: #ccc; */
+}
+h1{
+    text-align: center;
+    color: #4ddd;
+    padding: 2em;
+    text-transform: capitalize;
+}
+.form-input{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+   
+}
+.set{
+    background: #4ddd;
+    height: 500px;
+    width: 100%;
+}
+/* started styling input field here */
+.input{
+    margin: 1em;
+    outline: none;
+    height: 50px;
+    width: 40%;
+    padding-left: 1em;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-top-right-radius: 9px;
+    border-top-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    border-bottom-left-radius: 9px;
+}
+/* started styling name label here */
+.name,
+.email,
+.password{
+    color: #fff;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    margin-right: 2.3em;
+}
+.phone,
+.gender,
+.male,
+.female{
+    color: #fff;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+
+}
+.btn-btn{
+    background: #000;
+    border: none;
+    width: 120px;
+    height: 60px;
+    color: #fff;
+    border-top-right-radius: 9px;
+    border-top-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    border-bottom-left-radius: 9px;
+}
+.input-validate > span > i{
+    color: #000;
+    position: absolute;
+    margin-top: 2em;
+    font-size: 20px;
+}
