@@ -29,14 +29,15 @@ h1{
     height: 50px;
     width: 40%;
     padding-left: 1em;
-    border: 1px solid #ccc;
-    border-top: none;
+    border: 1px solid#000;
+    background: #cccfec;
+    border-top-color: red;
     border-top-right-radius: 9px;
     border-top-left-radius: 9px;
     border-bottom-right-radius: 9px;
     border-bottom-left-radius: 9px;
 }
-/* started styling name label here */
+
 .name,
 .email,
 .password{
@@ -72,4 +73,24 @@ h1{
     position: absolute;
     margin-top: 2em;
     font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    .name,
+.email,
+.password{
+    font-size: 12px;
+    margin-left: 1px;
+}
+.phone,
+.gender,
+.male,
+.female{
+    font-size: 12px;
+}
+.input{
+    border: 1px solid blUE;
+}
+
+    
 }
