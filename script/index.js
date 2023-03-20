@@ -1,9 +1,17 @@
 
 
 let names = document.getElementById('name');
+names.style.fontSize = '11px';
+names.style.color = 'red';
 let email = document.getElementById('email');
+email.style.fontSize = '11px';
+email.style.color = 'red';
 let phone = document.getElementById('phone');
+phone.style.fontSize = '11px';
+phone.style.color = 'red';
 let password = document.getElementById('password');
+password.style.fontSize = '11px';
+password.style.color = 'red';
 
 function nameValidity () {
     let userName = document.getElementById('name-input').value;
